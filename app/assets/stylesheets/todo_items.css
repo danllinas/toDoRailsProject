@@ -14,7 +14,7 @@ div.header {
 }
 
 div.editView {
-  background-image: url('/postItNote.jpg');
+  background-image: url('/assets/postItNote.jpg');
   width: 35%;
   height: 35%;
   margin: auto;
@@ -22,7 +22,7 @@ div.editView {
 }
 
 div.showView {
-  background-image: url('/postItNote.jpg');
+  background-image: url('/assets/postItNote.jpg');
   width: 35%;
   height: 35%;
   margin: auto;
@@ -30,10 +30,8 @@ div.showView {
 }
 
 p#slider {
-  /*visibility: hidden;*/
   display: none;
   float: right;
-  /*display: inline;*/
   margin-right: 250px;
 }
 
