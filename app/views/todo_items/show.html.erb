@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+
+
+<div class="showView">
+<p>
+  <h1>Your task...</h1>
+  <%= @todo_item.description %>
+</p>
+
+<%= link_to 'Revise', edit_todo_item_path(@todo_item) %>&nbsp;<img src="/assets/pencil.png">&nbsp; |
+<%= link_to 'Back', todo_items_path %>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
