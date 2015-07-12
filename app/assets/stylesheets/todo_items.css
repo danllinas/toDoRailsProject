@@ -13,20 +13,16 @@ div.header {
   text-align: center;
 }
 
-div.editView {
+div.showView {
   background-image: url('/assets/postItNote.jpg');
-  width: 35%;
-  height: 35%;
+  width: 475px;
+  height: 515px;
   margin: auto;
   text-align: center;
 }
 
-div.showView {
-  background-image: url('/assets/postItNote.jpg');
-  width: 35%;
-  height: 35%;
-  margin: auto;
-  text-align: center;
+div.showView h1{
+  padding: 100px;
 }
 
 p#slider {
@@ -51,7 +47,7 @@ a, a:visited {
 }
 
 th {
-  background-color: #47D1FF;
+  background-color: #FFF543;
   height: auto;
   font-size: 2em;
   padding: 0.5em;
@@ -59,7 +55,7 @@ th {
 }
 
 tr:nth-child(even) {
-  background: #D4F1FF;
+  background: #FFF87B;
   border-style: outset;
 }
 

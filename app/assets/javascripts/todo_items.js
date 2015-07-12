@@ -15,9 +15,6 @@
   setInterval(function(){
     $('.shake').effect('shake', {direction: 'right'});
   },
-  15000
+  10000
   );
-
-
-
 });
