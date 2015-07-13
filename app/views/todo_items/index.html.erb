@@ -20,9 +20,18 @@
     <% @todo_items.each do |todo_item| %>
       <tr>
         <td><%= todo_item.description %></td>
-        <td><%= link_to 'Read', todo_item, method: :get%><img src="/assets/glasses.png" align="right"></td>
-        <td><%= link_to 'Revise', edit_todo_item_path(todo_item), method: :get %><img src="/assets/pencil.png" align="right"></td>
-        <td><%= link_to 'Scrap', todo_item, method: :delete, data: { confirm: 'Are you really really sure?' } %><img src="/assets/trash.png" align="right"></td>
+        <td>
+          <%= link_to 'Read', todo_item, method: :get%>
+          <%= image_tag("glasses.png", align: 'right' ) %> <!--img src="/assets/glasses.png" align="right"-->
+        </td>
+        <td>
+          <%= link_to 'Revise', edit_todo_item_path(todo_item), method: :get %>
+          <%= image_tag("pencil.png", align: 'right') %><!--img src="/assets/pencil.png" align="right"-->
+        </td>
+        <td>
+          <%= link_to 'Scrap', todo_item, method: :delete, data: { confirm: 'Are you really really sure?' } %>
+          <%= image_tag("trash.png", align: 'right') %><!--img src="/assets/trash.png" align="right"-->
+        </td>
       </tr>
     <% end %>
   </tbody>
