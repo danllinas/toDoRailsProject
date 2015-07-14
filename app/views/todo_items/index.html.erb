@@ -22,7 +22,7 @@
         <td><%= todo_item.description %></td>
         <td>
           <%= link_to 'Read', todo_item, method: :get%>
-          <%= image_tag("glasses.png", align: 'right' ) %> <!--img src="/assets/glasses.png" align="right"-->
+          <%= image_tag("glasses.png", align: 'right' ) %>
         </td>
         <td>
           <%= link_to 'Revise', edit_todo_item_path(todo_item), method: :get %>
